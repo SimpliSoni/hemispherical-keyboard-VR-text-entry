@@ -1,57 +1,46 @@
-# hemispherical-keyboard-VR-text-entry
+# Getting Started with Create React App
 
-A React component for simulating a hemispherical keyboard in a VR environment, designed for text entry with gamepad integration.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Overview
+## Available Scripts
 
-The `HemisphericalKeyboard` component provides an interactive VR text entry experience using a hemispherical keyboard layout. It supports character selection and rotation, and integrates with VR gamepads for intuitive input.
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- **Hemispherical Layout**: A unique keyboard design optimized for VR environments.
-- **Gamepad Integration**: Supports VR gamepad input for text entry.
-- **Character Selection**: Interactive character selection with visual feedback.
-- **Rotation Handling**: Adjusts keyboard orientation based on user input.
-- **Background Color**: Configurable background color for the keyboard.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Installation
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-To use the `HemisphericalKeyboard` component in your React project, follow these steps:
+### `npm test`
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/hemispherical-keyboard.git
-    ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. **Navigate to the project directory**:
-    ```bash
-    cd hemispherical-keyboard
-    ```
+### `npm run build`
 
-3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4. **Run the project**:
-    ```bash
-    npm start
-    ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Usage
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Import and use the `HemisphericalKeyboard` component in your React application:
+### `npm run eject`
 
-```jsx
-import React from 'react';
-import HemisphericalKeyboard from './HemisphericalKeyboard';
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-function App() {
-  return (
-    <div>
-      <HemisphericalKeyboard />
-    </div>
-  );
-}
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-export default App;
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
